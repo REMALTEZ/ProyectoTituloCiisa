@@ -17,11 +17,13 @@ public class Email {
     private String asunto = "Predeterminado";
     private String tipoTexto = "PFA";
     private String fileFolder = "";
-    private String fileName = "Estimados, Colaboradores(as) \n +" +
-            "            \n +" +
-            "Se acaban de ejecutar satisfactoriamente los casos de prueba Automatizados \n +" +
-            "En el laboratorio de pruebas unitarias y de regresion \n +"+
-            "Se adjunta evidencia de cada ejecucion mediante Reporte PDF";
+    private String fileName ="";
+
+//    private String fileName = "Estimados, Colaboradores(as) \n +" +
+//            "            \n +" +
+//            "Se acaban de ejecutar satisfactoriamente los casos de prueba Automatizados \n +" +
+//            "En el laboratorio de pruebas unitarias y de regresion \n +"+
+//            "Se adjunta evidencia de cada ejecucion mediante Reporte PDF";
 
     private Message mensaje;
 
