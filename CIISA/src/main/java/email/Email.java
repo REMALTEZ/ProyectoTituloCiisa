@@ -17,8 +17,20 @@ public class Email {
     private String asunto = "Predeterminado";
     private String tipoTexto = "PFA";
     private String fileFolder = "";
-    private String fileName = "";
+    private String fileName = "Estimados, Colaboradores(as) \n +" +
+            "            \n +" +
+            "Se acaban de ejecutar satisfactoriamente los casos de prueba Automatizados \n +" +
+            "En el laboratorio de pruebas unitarias y de regresion \n +"+
+            "Se adjunta evidencia de cada ejecucion mediante Reporte PDF";
+
     private Message mensaje;
+
+//    String cuerpoMsg= "Estimados, Colaboradores(as) \n +" +
+//            "            \n +" +
+//            "Se acaban de ejecutar satisfactoriamente los casos de prueba Automatizados \n +" +
+//            "En el laboratorio de pruebas unitarias y de regresion \n +"+
+//            "Se adjunta evidencia de cada ejecucion mediante Reporte PDF";
+
 
     public Email(){
         SessionProperties sessionProperties = new SessionProperties();
@@ -52,15 +64,15 @@ public class Email {
         this.fileName = fileName;
     }
 
-    public void configurarCuerpoEmail(String estimados){
+    public void configurarCuerpoEmail(){
         MimeBodyPart messageBodyPart = new MimeBodyPart();
         Multipart multipart = new MimeMultipart();
         DataSource source = new FileDataSource(this.fileFolder + "\\" + this.fileName);
+        System.out.println(source);
         try {
             messageBodyPart.setDataHandler(new DataHandler(source));
             messageBodyPart.setFileName(fileName);
             multipart.addBodyPart(messageBodyPart);
-
             this.mensaje.setContent(multipart);
         } catch (MessagingException e) {
             e.printStackTrace();

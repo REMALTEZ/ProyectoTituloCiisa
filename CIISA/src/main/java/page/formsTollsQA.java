@@ -93,7 +93,7 @@ public class formsTollsQA {
 
         } else {
 
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento3 = metodosGenericos.visualizarObjeto(botonPracticForms, 10);
@@ -102,7 +102,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
 
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento4 = metodosGenericos.visualizarObjeto(txtNameF, 5);
@@ -113,7 +113,7 @@ public class formsTollsQA {
 
         } else {
             System.out.println("No es  Posible realizar Ingreso de Name");
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
 
@@ -124,7 +124,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
             System.out.println("No es  Posible realizar Ingreso de Salario");
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento6 = metodosGenericos.visualizarObjeto(optionMasculino, 5);
@@ -134,7 +134,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
 
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento7 = metodosGenericos.visualizarObjeto(txtEmailF, 5);
@@ -144,7 +144,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
             System.out.println("No es  Posible realizar Ingreso de Salario");
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento8 = metodosGenericos.visualizarObjeto(txtMobile, 5);
@@ -154,7 +154,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
             System.out.println("No es  Posible realizar Ingreso Numero Mobile");
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento9 = metodosGenericos.visualizarObjeto(txtMobile, 5);
@@ -164,7 +164,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
             System.out.println("No es  Posible realizar Ingreso Numero Mobile");
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
     }
@@ -183,7 +183,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
 
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento2 = metodosGenericos.visualizarObjeto(optionLeer, 5);
@@ -193,7 +193,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
 
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento3 = metodosGenericos.visualizarObjeto(optionMusic, 5);
@@ -203,7 +203,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
 
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento4 = metodosGenericos.visualizarObjeto(txtDireccionF, 5);
@@ -213,7 +213,7 @@ public class formsTollsQA {
             addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
         } else {
             System.out.println("No es  Posible realizar Ingreso de Direccion");
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         boolean elemento5 = metodosGenericos.visualizarObjeto(txtAsignaturas, 5);
@@ -231,10 +231,10 @@ public class formsTollsQA {
             Thread.sleep(400);
             CboselectCiudad.click();
             Thread.sleep(400);
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.PASS, true);
         } else {
 
-            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, false);
+            addWebReportImage("Agregar Instituciones", "Ingresar datos de acceso", Status.FAIL, true);
         }
 
         ToolsQA.click();

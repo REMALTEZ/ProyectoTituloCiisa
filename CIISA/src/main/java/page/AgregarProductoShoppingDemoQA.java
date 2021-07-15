@@ -56,7 +56,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion de Compra Producto Speakers", Status.PASS, false);
             btonSpeaker.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No se pudo Acceder La Opcion de Compra Producto Speakers", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No se pudo Acceder La Opcion de Compra Producto Speakers", Status.FAIL, true);
         }
 
         boolean elementobtonPrecio = metodosGenericos.visualizarObjeto(btonPrecio, 10);
@@ -64,7 +64,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Click En El Precio Del Producto", Status.PASS, false);
             btonPrecio.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Realizar Click En El Precio Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Realizar Click En El Precio Del Producto", Status.FAIL, true);
         }
 
         boolean elementoCompatibilidad = metodosGenericos.visualizarObjeto(btonCompatib, 10);
@@ -72,7 +72,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion de Compatibilidad Del Producto", Status.PASS, false);
             btonCompatib.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion de Compatibilidad Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion de Compatibilidad Del Producto", Status.FAIL, true);
         }
 
         boolean elementoCompatibOne = metodosGenericos.visualizarObjeto(OptionCompatibOne, 10);
@@ -80,7 +80,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion de Compatibilidad Del Producto One", Status.PASS, false);
             OptionCompatibOne.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion de Compatibilidad Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion de Compatibilidad Del Producto", Status.FAIL, true);
         }
 
         boolean elementoCompatibDos = metodosGenericos.visualizarObjeto(OptionCompatibDos, 10);
@@ -88,7 +88,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion de Compatibilidad Del Producto Dos", Status.PASS, false);
             OptionCompatibDos.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion de Compatibilidad Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion de Compatibilidad Del Producto", Status.FAIL, true);
         }
 
         boolean elementoFabricante = metodosGenericos.visualizarObjeto(btonFabricante, 10);
@@ -96,7 +96,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion de Fabricante Del Producto Dos", Status.PASS, false);
             btonFabricante.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion de Fabricante Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion de Fabricante Del Producto", Status.FAIL, true);
         }
 
         boolean elementoOptionHP = metodosGenericos.visualizarObjeto(OptionHP, 10);
@@ -104,7 +104,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion HP Del Producto", Status.PASS, false);
             OptionHP.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion HP Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion HP Del Producto", Status.FAIL, true);
         }
 
         boolean elementoTecnologia = metodosGenericos.visualizarObjeto(BotonTecnologia, 10);
@@ -112,7 +112,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion Tecnologia Del Producto", Status.PASS, false);
             BotonTecnologia.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion Tecnologia Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion Tecnologia Del Producto", Status.FAIL, true);
         }
 
         boolean elementoOptionBluetho = metodosGenericos.visualizarObjeto(OptionBluetho, 10);
@@ -120,7 +120,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion Bluetooth Del Producto", Status.PASS, false);
             OptionBluetho.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion Bluetooth Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion Bluetooth Del Producto", Status.FAIL, true);
         }
 
         boolean elementoOptionColor = metodosGenericos.visualizarObjeto(OptionColor, 10);
@@ -128,7 +128,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion Color Del Producto", Status.PASS, false);
             OptionColor.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion Color Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion Color Del Producto", Status.FAIL, true);
         }
 
         boolean elementoAltavoz = metodosGenericos.visualizarObjeto(SeleccionAltavosHP, 10);
@@ -136,7 +136,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona La Opcion Altavoz Del Producto", Status.PASS, false);
             SeleccionAltavosHP.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion Altavoz Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar La Opcion Altavoz Del Producto", Status.FAIL, true);
         }
 
         boolean elementoSeleccionCant = metodosGenericos.visualizarObjeto(SeleccionCant, 10);
@@ -144,7 +144,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Selecciona Cantidad Del Producto", Status.PASS, false);
             SeleccionCant.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar Cantidad Del Producto", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Seleccionar Cantidad Del Producto", Status.FAIL, true);
         }
 
         boolean elementoCarro = metodosGenericos.visualizarObjeto(botonAnadeCarrito, 10);
@@ -152,7 +152,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Agrega Producto Al Carro De Compras", Status.PASS, false);
             botonAnadeCarrito.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Agregar Producto Al Carro De Compras", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Agregar Producto Al Carro De Compras", Status.FAIL, true);
         }
 
         /**DESPUES DE LA COMPRA VUELVA A LA PAGINA HOME*/
@@ -161,7 +161,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Pagina Principal Shooping", "Vuelve a Pagina Principal Inicial", Status.PASS, false);
             FrondPrincipal.click();
         } else {
-            addWebReportImage("Error! Al Volver a Pagina Principal Shooping", "No Se Puede Volver aPagina Principal Inicial", Status.FAIL, false);
+            addWebReportImage("Error! Al Volver a Pagina Principal Shooping", "No Se Puede Volver aPagina Principal Inicial", Status.FAIL, true);
         }
 
     }
@@ -195,7 +195,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion de Compra Producto Tablets", Status.PASS, false);
             btonTabletsImg.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion de Compra Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion de Compra Producto Tablets", Status.FAIL, true);
         }
 
         boolean elementoPrecio = metodosGenericos.visualizarObjeto(OptionPrecioTB, 10);
@@ -203,7 +203,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Precio Del Producto Tablets", Status.PASS, false);
             OptionPrecioTB.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Del Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Del Producto Tablets", Status.FAIL, true);
         }
 
         boolean elementoMonitor = metodosGenericos.visualizarObjeto(OptionMonitor, 10);
@@ -211,7 +211,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor Del Producto Tablets", Status.PASS, false);
             OptionPrecioTB.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor Del Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor Del Producto Tablets", Status.FAIL, true);
         }
 
         boolean elementoPantallaUno = metodosGenericos.visualizarObjeto(PantallaUno, 10);
@@ -219,7 +219,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 1 Del Producto Tablets", Status.PASS, false);
             OptionPrecioTB.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 1 Del Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 1 Del Producto Tablets", Status.FAIL, true);
         }
 
         boolean elementoPantallaDos = metodosGenericos.visualizarObjeto(PantallaDos, 10);
@@ -227,7 +227,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 2 Del Producto Tablets", Status.PASS, false);
             PantallaDos.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 2 Del Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 2 Del Producto Tablets", Status.FAIL, true);
         }
 
         boolean elementoPantallaTres = metodosGenericos.visualizarObjeto(PantallaDos, 10);
@@ -235,15 +235,15 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 3 Del Producto Tablets", Status.PASS, false);
             PantallaTres.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 3 Del Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 3 Del Producto Tablets", Status.FAIL, true);
         }
 
         boolean elementoOptProcesador = metodosGenericos.visualizarObjeto(OptionProcesador, 10);
         if (elementoOptProcesador) {
-            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Procedador Del Producto Tablets", Status.PASS, false);
+            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Procedador Del Producto Tablets", Status.PASS, true);
             OptionProcesador.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador Del Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador Del Producto Tablets", Status.FAIL, true);
         }
 
         boolean elementoProcesador = metodosGenericos.visualizarObjeto(ProcesDos, 10);
@@ -251,7 +251,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Procedador 1 Del Producto Tablets", Status.PASS, false);
             ProcesDos.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador 1 Del Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador 1 Del Producto Tablets", Status.FAIL, true);
         }
 
         boolean elementoSelecTB = metodosGenericos.visualizarObjeto(SelecionaTablets, 10);
@@ -259,7 +259,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Procedador 1 Del Producto Tablets", Status.PASS, false);
             SelecionaTablets.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador 1 Del Producto Tablets", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador 1 Del Producto Tablets", Status.FAIL, true);
         }
 
         /**DESPUES DE LA COMPRA VUELVA A LA PAGINA HOME*/
@@ -268,7 +268,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Pagina Principal Shooping", "Vuelve a Pagina Principal Inicial", Status.PASS, false);
             FrondPrincipal.click();
         } else {
-            addWebReportImage("Error! Al Volver a Pagina Principal Shooping", "No Se Puede Volver aPagina Principal Inicial", Status.FAIL, false);
+            addWebReportImage("Error! Al Volver a Pagina Principal Shooping", "No Se Puede Volver aPagina Principal Inicial", Status.FAIL, true);
         }
     }
     /************************************************************************************************************************/
@@ -296,7 +296,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Laptos", "Selecciona La Opcion de Compra Producto Laptos", Status.PASS, false);
             btonLaptopsImg.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion de Compra Producto Laptos", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion de Compra Producto Laptos", Status.FAIL, true);
         }
 
         boolean elementoPrecio = metodosGenericos.visualizarObjeto(PrecioLap, 10);
@@ -304,7 +304,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Laptos", "Selecciona La Opcion Precio Del Producto Laptos", Status.PASS, false);
             PrecioLap.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion Precio Del Producto Laptos", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion Precio Del Producto Laptos", Status.FAIL, true);
         }
 
         boolean elementoMonitor = metodosGenericos.visualizarObjeto(MonitorLap, 10);
@@ -312,7 +312,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Laptos", "Selecciona La Opcion Precio Del Producto Laptos", Status.PASS, false);
             MonitorLap.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion Precio Del Producto Laptos", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion Precio Del Producto Laptos", Status.FAIL, true);
         }
 
         boolean elementoSistema = metodosGenericos.visualizarObjeto(SistemaLap, 10);
@@ -320,7 +320,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Laptos", "Selecciona La Opcion Sistema Del Producto Laptos", Status.PASS, false);
             SistemaLap.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion Sistema Del Producto Laptos", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion Sistema Del Producto Laptos", Status.FAIL, true);
         }
 
         boolean elementoWin10 = metodosGenericos.visualizarObjeto(optwin10, 10);
@@ -328,7 +328,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Laptos", "Selecciona La Opcion Windows 10 Del Producto Laptos", Status.PASS, false);
             optwin10.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion Windows 10 Del Producto Laptos", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No se pudo Acceder La Opcion Windows 10 Del Producto Laptos", Status.FAIL, true);
         }
 
         boolean elementoSelLapto = metodosGenericos.visualizarObjeto(SeleccionaLap, 10);
@@ -336,7 +336,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Laptos", "Selecciona Producto Laptos", Status.PASS, false);
             SeleccionaLap.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Seleccionar Producto Laptos", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Seleccionar Producto Laptos", Status.FAIL, true);
         }
 
         /**DESPUES DE LA COMPRA VUELVA A LA PAGINA HOME*/
@@ -345,7 +345,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Pagina Principal Shooping", "Vuelve a Pagina Principal Inicial", Status.PASS, false);
             FrondPrincipal.click();
         } else {
-            addWebReportImage("Error! Al Volver a Pagina Principal Shooping", "No Se Puede Volver aPagina Principal Inicial", Status.FAIL, false);
+            addWebReportImage("Error! Al Volver a Pagina Principal Shooping", "No Se Puede Volver aPagina Principal Inicial", Status.FAIL, true);
         }
     }
     /************************************************************************************************************************/
@@ -371,7 +371,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Audifonos", "Agrega Producto Audifono", Status.PASS, false);
             menuAudifonos.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Agregar Producto Audifono", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Agregar Producto Audifono", Status.FAIL, true);
         }
 
         boolean elementoPrecio = metodosGenericos.visualizarObjeto(precioAudifonos, 10);
@@ -379,7 +379,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Audifonos", "Seleccion Precio De Producto Audifono", Status.PASS, false);
             precioAudifonos.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Precio De Producto Audifono", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Precio De Producto Audifono", Status.FAIL, true);
         }
 
         boolean elementoCompatibilidad = metodosGenericos.visualizarObjeto(compatyAudifonos, 10);
@@ -387,7 +387,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Audifonos", "Seleccion Opciones De Compatibilidad De Producto Audifono", Status.PASS, false);
             compatyAudifonos.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Opciones De Compatibilidad De Producto Audifono", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Opciones De Compatibilidad De Producto Audifono", Status.FAIL, true);
         }
 
         boolean elementoOpcion = metodosGenericos.visualizarObjeto(opcionAudifonos, 10);
@@ -395,7 +395,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Audifonos", "Seleccion Opciones Del Producto Audifono", Status.PASS, false);
             opcionAudifonos.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Opciones Del Producto Audifono", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Opciones Del Producto Audifono", Status.FAIL, true);
         }
 
         boolean elementoWeight = metodosGenericos.visualizarObjeto(Weight, 10);
@@ -403,7 +403,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Audifonos", "Seleccion Opciones Del Producto Audifono", Status.PASS, false);
             Weight.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Opciones Del Producto Audifono", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Opciones Del Producto Audifono", Status.FAIL, true);
         }
 
         boolean elementoSeleccion = metodosGenericos.visualizarObjeto(SeleccionaAudif, 10);
@@ -411,7 +411,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados a Audifonos", "Selecciona Producto Audifono", Status.PASS, false);
             SeleccionaAudif.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Producto Audifono", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados a Audifonos", "No Se Pudo Seleccionar Producto Audifono", Status.FAIL, true);
         }
         Thread.sleep(1000);
         boolean elementoCarro = metodosGenericos.visualizarObjeto(botonAnadeCarrito, 10);
@@ -419,7 +419,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Agrega Productos Relacionados Con Speakers", "Agrega Producto Al Carro De Compras", Status.PASS, false);
             botonAnadeCarrito.click();
         } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Agregar Producto Al Carro De Compras", Status.FAIL, false);
+            addWebReportImage("Error! Al Agregar Productos Relacionados Con Speakers", "No Se Pudo Agregar Producto Al Carro De Compras", Status.FAIL, true);
         }
         Thread.sleep(1000);
         /**DESPUES DE LA COMPRA VUELVA A LA PAGINA HOME*/
@@ -428,7 +428,7 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Pagina Principal Shooping", "Vuelve a Pagina Principal Inicial", Status.PASS, false);
             FrondPrincipal.click();
         } else {
-            addWebReportImage("Error! Al Volver a Pagina Principal Shooping", "No Se Puede Volver aPagina Principal Inicial", Status.FAIL, false);
+            addWebReportImage("Error! Al Volver a Pagina Principal Shooping", "No Se Puede Volver aPagina Principal Inicial", Status.FAIL, true);
         }
         Thread.sleep(1000);
     }

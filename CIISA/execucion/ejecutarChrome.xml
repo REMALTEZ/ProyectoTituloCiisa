@@ -4,23 +4,23 @@
     <parameter name="browser" value="Chrome"></parameter>
     <parameter name="carpetaReporte" value="C:\Jenkins\report"></parameter>
 
-    <test name="INGRESO TOOLS QA LOGIN">
-        <classes>
-            <class name="testClases.CPA001LOGIN" />
-        </classes>
-    </test>
+<!--    <test name="INGRESO TOOLS QA LOGIN">-->
+<!--        <classes>-->
+<!--            <class name="testClases.CPA001LOGIN" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="INGRESO TOOLS QA CHECKBOX ">
-        <classes>
-            <class name="testClases.CPA002CheckBox" />
-        </classes>
-    </test>
+<!--    <test name="INGRESO TOOLS QA CHECKBOX ">-->
+<!--        <classes>-->
+<!--            <class name="testClases.CPA002CheckBox" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="INGRESO TOOLS QA RADIO BUTTON">
-        <classes>
-            <class name="testClases.CPA003RadioButton" />
-        </classes>
-   </test>
+<!--&lt;!&ndash;    <test name="INGRESO TOOLS QA RADIO BUTTON">&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="testClases.CPA003RadioButton" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;   </test>&ndash;&gt;-->
 
     <test name="INGRESO TOOLS QA WEBTABLE ">
         <classes>
@@ -28,12 +28,17 @@
         </classes>
     </test>
 
-    <test name="INGRESO TOOLS QA WIDGET">
-        <classes>
-            <class name="testClases.CPA006Widget" />
-        </classes>
-    </test>
+<!--    <test name="INGRESO TOOLS QA WIDGET">-->
+<!--        <classes>-->
+<!--            <class name="testClases.CPA006Widget" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
+<!--    <test name="Ingresar A SHOPPING AGREGA PRODUCTOS A CARRO DE COMPRAS">-->
+<!--        <classes>-->
+<!--            <class name="testClases.CPA007AgregaProductoShopping" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
 

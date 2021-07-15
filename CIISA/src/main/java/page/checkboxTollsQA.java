@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.metodosGenericos;
 
+
+
 import static utils.HtmlReport.addWebReportImage;
 
 public class checkboxTollsQA {
@@ -46,6 +48,7 @@ public class checkboxTollsQA {
     public void checkBox(){
 
         boolean menucheck = metodosGenericos.visualizarObjeto(botonCheckbox, 5);
+
         if (menucheck) {
             botonCheckbox.click();
             addWebReportImage("text Box ", "text box", Status.PASS, false);
