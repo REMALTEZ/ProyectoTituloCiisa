@@ -22,7 +22,7 @@ public class AgregaPhonesDemoBlazer {
     }
 
     /*****MENU CATEGORIA************************************/
-    @FindBy(xpath = "//body/nav[@id='narvbarx']/a[@id='nava']/font[1]/font[1]")
+    @FindBy(xpath = "//body/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]")
     private WebElement homePrincipal;
 
     @FindBy(xpath = "//a[contains(text(),'Phones')]")
@@ -34,7 +34,7 @@ public class AgregaPhonesDemoBlazer {
     @FindBy(xpath = "//a[contains(text(),'Monitors')]")
     private WebElement menuMonitor;
 
-    private void menuCategorias() throws InterruptedException {
+    public void menuCategorias() throws InterruptedException {
 
         boolean menuPhone = metodosGenericos.visualizarObjeto(menuPhones, 200);
         if (menuPhone) {
@@ -88,23 +88,24 @@ public class AgregaPhonesDemoBlazer {
     @FindBy (xpath = "//body/div[@id='contcont']/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/img[1]")
     private WebElement celSamsungS6;
 
-    @FindBy (xpath = "//a[contains(text(),'Add to cart')]")
+
+    @FindBy (xpath = "/html[1]/body[1]/div[5]/div[1]/div[2]/div[2]/div[1]/a[1]")
     private  WebElement addCellSamsung;
 
-    @FindBy (xpath = "//font[contains(text(),'Nokia lumia 1520')]")
+    @FindBy (xpath = "//a[contains(text(),'Nokia lumia 1520')]")
     private WebElement celNokia;
 
     @FindBy (xpath = "//font[contains(text(),'Añadir a la cesta')]")
     private  WebElement addCellNokia;
 
-    @FindBy (xpath = "//body/div[@id='contcont']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/h4[1]/a[1]/font[1]/font[1]")
+    @FindBy (xpath = "//a[contains(text(),'Nexus 6')]")
     private WebElement celNexus;
 
-    @FindBy (xpath = "//body/div[5]/div[1]/div[2]/div[2]/div[1]/a[1]")
-    private  WebElement addCellNexus;
+    @FindBy (id = "nava")
+    private  WebElement productStore;
 
 
-    private void agregaPhonesAlCarro() throws InterruptedException {
+    public void agregaPhonesAlCarro() throws InterruptedException {
 
         /****Agrega Al Carro telefono Samsung*************************************************************/
         boolean menuPhone = metodosGenericos.visualizarObjeto(menuPhones, 200);
@@ -138,21 +139,22 @@ public class AgregaPhonesDemoBlazer {
         }
 
         //Agrega al Carrito Celular Samsung
-        boolean AddSamsung = metodosGenericos.visualizarObjeto(addCellSamsung, 200);
-        if (AddSamsung) {
-            Thread.sleep(200);
-            addCellSamsung.click();
-            addWebReportImage("Recorrido Menu Phones", "Se Agrega Celular Samsung S6 al Carrito", Status.PASS, false);
-            reporteObjetoDesplegado(true, " Recorrido Menu Categorias", "Se Agrega Celular Samsung S6 al Carrito", false);
-            Assert.assertTrue(true);
-        } else {
-            addWebReportImage("Error! Recorrido Menu Phones", "No es Posible Se Agrega Celular Samsung S6 al Carrito", Status.FAIL, false);
-            reporteObjetoDesplegado(false, "Error! Recorrido Menu Categorias", " No es Posible Agregar Celular Samsung S6 al Carrito", false);
-            System.out.println("No es  Posible realizar Click en Page ToolsQA");
-            Assert.assertTrue(false);
-        }
+//        boolean AddSamsung = metodosGenericos.visualizarObjeto(addCellSamsung, 200);
+//        if (AddSamsung) {
+//            Thread.sleep(200);
+//            addCellSamsung.click();
+//            addWebReportImage("Recorrido Menu Phones", "Se Agrega Celular Samsung S6 al Carrito", Status.PASS, false);
+//            reporteObjetoDesplegado(true, " Recorrido Menu Categorias", "Se Agrega Celular Samsung S6 al Carrito", false);
+//            Assert.assertTrue(true);
+//        } else {
+//            addWebReportImage("Error! Recorrido Menu Phones", "No es Posible Se Agrega Celular Samsung S6 al Carrito", Status.FAIL, false);
+//            reporteObjetoDesplegado(false, "Error! Recorrido Menu Categorias", " No es Posible Agregar Celular Samsung S6 al Carrito", false);
+//            System.out.println("No es  Posible realizar Click en Page ToolsQA");
+//            Assert.assertTrue(false);
+//        }
 
         //Vuelve a Home
+
         boolean homePrin = metodosGenericos.visualizarObjeto(homePrincipal, 200);
         if (homePrin) {
             Thread.sleep(200);
@@ -200,23 +202,8 @@ public class AgregaPhonesDemoBlazer {
             Assert.assertTrue(false);
         }
 
-        //Agrega al Carrito Celular Nexus
-        boolean AddNexus = metodosGenericos.visualizarObjeto(addCellNexus, 200);
-        if (AddNexus) {
-            Thread.sleep(200);
-            addCellNexus.click();
-            addWebReportImage("Recorrido Menu Phones", "Se Agrega Celular Nexus al Carrito", Status.PASS, false);
-            reporteObjetoDesplegado(true, " Recorrido Menu Categorias", "Se Agrega Celular Nexus al Carrito", false);
-            Assert.assertTrue(true);
-        } else {
-            addWebReportImage("Error! Recorrido Menu Phones", "No es Posible Se Agrega Celular Nexus al Carrito", Status.FAIL, false);
-            reporteObjetoDesplegado(false, "Error! Recorrido Menu Categorias", " No es Posible Agregar Celular Nexus al Carrito", false);
-            System.out.println("No es Posible Agregar Celular Nexus al Carrito");
-            Assert.assertTrue(false);
-        }
-
-        //Vuelve a Home
-        if (homePrin) {
+        boolean homePrinNexus = metodosGenericos.visualizarObjeto(homePrincipal, 200);
+        if (homePrinNexus) {
             Thread.sleep(200);
             homePrincipal.click();
             addWebReportImage("Home Principal", "Regresa al Home Principal", Status.PASS, false);
@@ -232,67 +219,7 @@ public class AgregaPhonesDemoBlazer {
         /*********************************************************************************************/
 
 
-        /****Agrega Al Carro telefono Nokia*************************************************************/
 
-        //Click en categoria Phone
-        if (menuPhone) {
-            Thread.sleep(200);
-            menuPhones.click();
-            addWebReportImage("Recorrido Menu Phones", "Se Selecciona Menu Categoria Phones", Status.PASS, false);
-            reporteObjetoDesplegado(true, " Recorrido Menu Categorias", "Se Seleccionar Menu Categoria Phones", false);
-            Assert.assertTrue(true);
-        } else {
-            addWebReportImage("Error! Recorrido Menu Phones", "No es Se Seleccionar Menu Categoria Phones", Status.FAIL, false);
-            reporteObjetoDesplegado(false, "Error! Recorrido Menu Categorias", " No es Posible Se Seleccionar Menu Categoria Phones", false);
-            System.out.println("No es  Posible realizar Click en Page ToolsQA");
-            Assert.assertTrue(false);
-        }
-
-        //Selecciona Celular Nokia
-        boolean menuNokia= metodosGenericos.visualizarObjeto(celNokia, 200);
-        if (menuNokia) {
-            Thread.sleep(200);
-            celNokia.click();
-            addWebReportImage("Recorrido Menu Phones", "Se Selecciona Celular Nokia al Carrito", Status.PASS, false);
-            reporteObjetoDesplegado(true, " Recorrido Menu Categorias", "Se Selecciona Celular Nokia al Carrito", false);
-            Assert.assertTrue(true);
-        } else {
-            addWebReportImage("Error! Recorrido Menu Phones", "No es Posible Se Selecciona Celular Nokia al Carrito", Status.FAIL, false);
-            reporteObjetoDesplegado(false, "Error! Recorrido Menu Categorias", " No es Posible Se Selecciona Celular Nokia al Carrito", false);
-            System.out.println("No es  Posible realizar Click en Page ToolsQA");
-            Assert.assertTrue(false);
-        }
-
-        //Agrega al Carrito Celular Nokia
-        boolean AddNokia = metodosGenericos.visualizarObjeto(addCellNokia, 200);
-        if (AddNokia) {
-            Thread.sleep(200);
-            addCellNokia.click();
-            addWebReportImage("Recorrido Menu Phones", "Se Agrega Celular Nokia al Carrito", Status.PASS, false);
-            reporteObjetoDesplegado(true, " Recorrido Menu Categorias", "Se Agrega Celular Nokia al Carrito", false);
-            Assert.assertTrue(true);
-        } else {
-            addWebReportImage("Error! Recorrido Menu Phones", "No es Posible Se Agrega Celular Samsung S6 al Carrito", Status.FAIL, false);
-            reporteObjetoDesplegado(false, "Error! Recorrido Menu Categorias", " No es Posible Agregar Celular Samsung S6 al Carrito", false);
-            System.out.println("No es  Posible realizar Click en Page ToolsQA");
-            Assert.assertTrue(false);
-        }
-
-        //Vuelve a Home
-        if (homePrin) {
-            Thread.sleep(200);
-            homePrincipal.click();
-            addWebReportImage("Home Principal", "Regresa al Home Principal", Status.PASS, false);
-            reporteObjetoDesplegado(true, " Recorrido Menu Categorias", "Regresa al Home Principal", false);
-            Assert.assertTrue(true);
-        } else {
-            addWebReportImage("Error! al volver al Home Principal", "No es Posible Regresar al Home Principal", Status.FAIL, false);
-            reporteObjetoDesplegado(false, "Error! Recorrido Menu Categorias", " No es Posible Regresa al Home Principal", false);
-            System.out.println("No es Posible Regresa al Home Principal");
-            Assert.assertTrue(false);
-        }
-
-        /*********************************************************************************************/
 
     }
 

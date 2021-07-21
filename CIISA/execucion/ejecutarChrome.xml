@@ -10,11 +10,11 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="INGRESO TOOLS QA CHECKBOX ">
-        <classes>
-            <class name="testClases.CPA002CheckBox" />
-        </classes>
-    </test>
+<!--    <test name="INGRESO TOOLS QA CHECKBOX ">-->
+<!--        <classes>-->
+<!--            <class name="testClases.CPA002CheckBox" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 <!--&lt;!&ndash;    <test name="INGRESO TOOLS QA RADIO BUTTON">&ndash;&gt;-->
 <!--&lt;!&ndash;        <classes>&ndash;&gt;-->
@@ -34,9 +34,15 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-<!--    <test name="Ingresar A SHOPPING AGREGA PRODUCTOS A CARRO DE COMPRAS">-->
+    <test name="Ingresar A SHOPPING AGREGA PRODUCTOS A CARRO DE COMPRAS">
+        <classes>
+            <class name="testClases.CPA007AgregaProductoShopping" />
+        </classes>
+    </test>
+
+<!--    <test name="Ingresar Productos a DEMO Blazer Web Shopping ">-->
 <!--        <classes>-->
-<!--            <class name="testClases.CPA007AgregaProductoShopping" />-->
+<!--            <class name="testClases.CPA008AgregaProdDemoBlazer" />-->
 <!--        </classes>-->
 <!--    </test>-->
 

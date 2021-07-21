@@ -53,31 +53,31 @@ public class CarritoDeCompraShoppingDemoQA {
         } else {
             addWebReportImage("Error! Pago De Carrito De Compras", "No Se Pudo Realizar Pago Carrito Compras", Status.FAIL, false);
         }
-        Thread.sleep(2000);
-        boolean elementoDatosPer = metodosGenericos.visualizarObjeto(DatosPersonales, 10);
-        if (elementoDatosPer) {
-            addWebReportImage("Pago De Carrito De Compras", "Agrega Datos Personales Al Carrito", Status.PASS, false);
-            DatosPersonales.click();
-        } else {
-            addWebReportImage("Error! Pago De Carrito De Compras", "No Se Pudo Agregar Datos Personales Al Carrito", Status.FAIL, false);
-        }
-        Thread.sleep(2000);
-        boolean elementoBtonNext = metodosGenericos.visualizarObjeto(btonNext, 10);
-        if (elementoBtonNext) {
-            addWebReportImage("Pago De Carrito De Compras", "Agrega Datos Personales Al Carrito", Status.PASS, false);
-            btonNext.click();
-        } else {
-            addWebReportImage("Error! Pago De Carrito De Compras", "No Se Pudo Agregar Datos Personales Al Carrito", Status.FAIL, false);
-        }
-        Thread.sleep(2000);
-        boolean elementoTotal = metodosGenericos.visualizarObjeto(PagarTotal, 10);
-        if (elementoTotal) {
-            addWebReportImage("Pago De Carrito De Compras", "Realiza El Pago Total ", Status.PASS, false);
-            PagarTotal.click();
-        } else {
-            addWebReportImage("Error! Pago De Carrito De Compras", "No Se Pudo Realizar El Pago Total", Status.FAIL, false);
-        }
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
+//        boolean elementoDatosPer = metodosGenericos.visualizarObjeto(DatosPersonales, 10);
+//        if (elementoDatosPer) {
+//            addWebReportImage("Pago De Carrito De Compras", "Agrega Datos Personales Al Carrito", Status.PASS, false);
+//            DatosPersonales.click();
+//        } else {
+//            addWebReportImage("Error! Pago De Carrito De Compras", "No Se Pudo Agregar Datos Personales Al Carrito", Status.FAIL, false);
+//        }
+//        Thread.sleep(2000);
+//        boolean elementoBtonNext = metodosGenericos.visualizarObjeto(btonNext, 10);
+//        if (elementoBtonNext) {
+//            addWebReportImage("Pago De Carrito De Compras", "Agrega Datos Personales Al Carrito", Status.PASS, false);
+//            btonNext.click();
+//        } else {
+//            addWebReportImage("Error! Pago De Carrito De Compras", "No Se Pudo Agregar Datos Personales Al Carrito", Status.FAIL, false);
+//        }
+//        Thread.sleep(2000);
+//        boolean elementoTotal = metodosGenericos.visualizarObjeto(PagarTotal, 10);
+//        if (elementoTotal) {
+//            addWebReportImage("Pago De Carrito De Compras", "Realiza El Pago Total ", Status.PASS, false);
+//            PagarTotal.click();
+//        } else {
+//            addWebReportImage("Error! Pago De Carrito De Compras", "No Se Pudo Realizar El Pago Total", Status.FAIL, false);
+//        }
+//        Thread.sleep(2000);
     }
     /************************************************************************************************************************/
 

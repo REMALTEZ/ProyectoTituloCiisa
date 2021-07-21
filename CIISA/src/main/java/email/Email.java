@@ -8,7 +8,9 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import java.util.Properties;
 
+import static email.CredencialesEmail.PASS_EMAIL;
 import static email.CredencialesEmail.USER_EMAIL;
 
 public class Email {
@@ -18,14 +20,14 @@ public class Email {
     private String tipoTexto = "PFA";
     private String fileFolder = "";
     private String fileName ="";
-
+    private Message mensaje;
 //    private String fileName = "Estimados, Colaboradores(as) \n +" +
 //            "            \n +" +
 //            "Se acaban de ejecutar satisfactoriamente los casos de prueba Automatizados \n +" +
 //            "En el laboratorio de pruebas unitarias y de regresion \n +"+
 //            "Se adjunta evidencia de cada ejecucion mediante Reporte PDF";
 
-    private Message mensaje;
+
 
 //    String cuerpoMsg= "Estimados, Colaboradores(as) \n +" +
 //            "            \n +" +

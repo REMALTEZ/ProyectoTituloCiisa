@@ -214,45 +214,45 @@ public class AgregarProductoShoppingDemoQA {
             addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor Del Producto Tablets", Status.FAIL, true);
         }
 
-        boolean elementoPantallaUno = metodosGenericos.visualizarObjeto(PantallaUno, 10);
-        if (elementoPantallaUno) {
-            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 1 Del Producto Tablets", Status.PASS, false);
-            OptionPrecioTB.click();
-        } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 1 Del Producto Tablets", Status.FAIL, true);
-        }
+//        boolean elementoPantallaUno = metodosGenericos.visualizarObjeto(PantallaUno, 10);
+//        if (elementoPantallaUno) {
+//            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 1 Del Producto Tablets", Status.PASS, false);
+//            PantallaUno.click();
+//        } else {
+//            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 1 Del Producto Tablets", Status.FAIL, true);
+//        }
+//
+//        boolean elementoPantallaDos = metodosGenericos.visualizarObjeto(PantallaDos, 10);
+//        if (elementoPantallaDos) {
+//            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 2 Del Producto Tablets", Status.PASS, false);
+//            PantallaDos.click();
+//        } else {
+//            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 2 Del Producto Tablets", Status.FAIL, true);
+//        }
+//
+//        boolean elementoPantallaTres = metodosGenericos.visualizarObjeto(PantallaDos, 10);
+//        if (elementoPantallaTres) {
+//            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 3 Del Producto Tablets", Status.PASS, false);
+//            PantallaTres.click();
+//        } else {
+//            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 3 Del Producto Tablets", Status.FAIL, true);
+//        }
 
-        boolean elementoPantallaDos = metodosGenericos.visualizarObjeto(PantallaDos, 10);
-        if (elementoPantallaDos) {
-            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 2 Del Producto Tablets", Status.PASS, false);
-            PantallaDos.click();
-        } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 2 Del Producto Tablets", Status.FAIL, true);
-        }
-
-        boolean elementoPantallaTres = metodosGenericos.visualizarObjeto(PantallaDos, 10);
-        if (elementoPantallaTres) {
-            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Monitor 3 Del Producto Tablets", Status.PASS, false);
-            PantallaTres.click();
-        } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Monitor 3 Del Producto Tablets", Status.FAIL, true);
-        }
-
-        boolean elementoOptProcesador = metodosGenericos.visualizarObjeto(OptionProcesador, 10);
-        if (elementoOptProcesador) {
-            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Procedador Del Producto Tablets", Status.PASS, true);
-            OptionProcesador.click();
-        } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador Del Producto Tablets", Status.FAIL, true);
-        }
-
-        boolean elementoProcesador = metodosGenericos.visualizarObjeto(ProcesDos, 10);
-        if (elementoOptProcesador) {
-            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Procedador 1 Del Producto Tablets", Status.PASS, false);
-            ProcesDos.click();
-        } else {
-            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador 1 Del Producto Tablets", Status.FAIL, true);
-        }
+//        boolean elementoOptProcesador = metodosGenericos.visualizarObjeto(OptionProcesador, 10);
+//        if (elementoOptProcesador) {
+//            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Procedador Del Producto Tablets", Status.PASS, true);
+//            OptionProcesador.click();
+//        } else {
+//            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador Del Producto Tablets", Status.FAIL, true);
+//        }
+//
+//        boolean elementoProcesador = metodosGenericos.visualizarObjeto(ProcesDos, 10);
+//        if (elementoOptProcesador) {
+//            addWebReportImage("Agrega Productos Relacionados a Tabletes", "Selecciona La Opcion Procedador 1 Del Producto Tablets", Status.PASS, false);
+//            ProcesDos.click();
+//        } else {
+//            addWebReportImage("Error! Al Agregar Productos Relacionados a Tabletes", "No Se Pudo Acceder La Opcion Procedador 1 Del Producto Tablets", Status.FAIL, true);
+//        }
 
         boolean elementoSelecTB = metodosGenericos.visualizarObjeto(SelecionaTablets, 10);
         if (elementoSelecTB) {

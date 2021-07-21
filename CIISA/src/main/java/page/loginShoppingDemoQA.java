@@ -24,13 +24,13 @@ public class loginShoppingDemoQA {
     String User="adminCiisa";
     String Pass ="Admin321";
 
-    @FindBy(id = "hrefUserIcon")
+    @FindBy(xpath = "//*[@id='menuUser']")
     private WebElement iconoLogin;
 
-    @FindBy(id = "username")
+    @FindBy(name = "username")
     private WebElement txtUserLogin;
 
-    @FindBy(id = "password")
+    @FindBy(name = "password")
     private WebElement txtPassword;
 
     @FindBy(id = "sign_in_btnundefined")
@@ -38,7 +38,7 @@ public class loginShoppingDemoQA {
 
 
     public void loginShopping() throws InterruptedException {
-
+        Thread.sleep(1000);
         boolean IconoLogin = metodosGenericos.visualizarObjeto(iconoLogin, 200);
         if (IconoLogin) {
             Thread.sleep(400);
@@ -53,7 +53,7 @@ public class loginShoppingDemoQA {
             Assert.assertTrue(false);
         }
 
-        boolean userName = metodosGenericos.visualizarObjeto(txtUserLogin, 10);
+        boolean userName = metodosGenericos.visualizarObjeto(txtUserLogin, 200);
         if (userName) {
             Thread.sleep(400);
             txtUserLogin.sendKeys(User);
@@ -67,7 +67,7 @@ public class loginShoppingDemoQA {
             Assert.assertTrue(false);
         }
 
-        boolean password = metodosGenericos.visualizarObjeto(txtPassword, 10);
+        boolean password = metodosGenericos.visualizarObjeto(txtPassword, 200);
         if (password) {
             Thread.sleep(400);
             txtPassword.sendKeys(Pass);

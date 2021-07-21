@@ -35,7 +35,6 @@ public class BaseWeb {
         HtmlReport.endReport();
         ZipUtilis zip = new ZipUtilis(carpetaReporte);
         zip.generarReporte();
-
     }
 
     @BeforeMethod

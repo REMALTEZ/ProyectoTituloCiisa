@@ -25,10 +25,9 @@ public class BaseWeb_Shopping {
     }
 
     @AfterSuite
-    //@Parameters({"carpetaReporte"})
+    @Parameters({"carpetaReporte"})
     public void afterSuite(ITestContext testContext) {
         HtmlReport.endReport();
-
     }
 
     @BeforeMethod
