@@ -18,8 +18,7 @@ public class AgregarProductoShoppingDemoQA {
         this.driver = DriverContext.getDriver();
         PageFactory.initElements(this.driver, this);
     }
-
-    /***************************CORRESPONDIENTE A LA SELECCION DE PARLANTES**************************************************/
+    /***************************Creacion de  WebElement Correspondiente a los Obtejos de cada PAGE**************************************************/
     @FindBy(id = "speakersImg")
     private WebElement btonSpeaker;
     @FindBy(id = "accordionPrice")
@@ -48,6 +47,51 @@ public class AgregarProductoShoppingDemoQA {
     private WebElement botonAnadeCarrito;
     @FindBy(xpath = "//body[1]/div[3]/nav[1]/a[1]")
     private WebElement FrondPrincipal;
+
+    @FindBy(id = "tabletsImg")
+    private WebElement btonTabletsImg;
+    @FindBy(id = "accordionPrice")
+    private WebElement OptionPrecioTB;
+    @FindBy(id = "accordionAttrib0")
+    private WebElement OptionMonitor;
+    @FindBy(id = "display_1")
+    private WebElement PantallaUno;
+    @FindBy(id = "display_0")
+    private WebElement PantallaDos;
+    @FindBy(id = "display_2")
+    private WebElement PantallaTres;
+    @FindBy(id = "accordionAttrib1")
+    private WebElement OptionProcesador;
+    @FindBy(id = "processor_2")
+    private WebElement ProcesDos;
+    @FindBy(id = "17")
+    private WebElement SelecionaTablets;
+    @FindBy(id = "laptopsImg")
+    private WebElement btonLaptopsImg;
+    @FindBy(id = "accordionPrice")
+    private WebElement PrecioLap;
+    @FindBy(id = "accordionAttrib0")
+    private WebElement MonitorLap;
+    @FindBy(id = "accordionAttrib1")
+    private WebElement SistemaLap;
+    @FindBy(id = "operating_system_1")
+    private WebElement optwin10;
+    @FindBy(id = "accordionAttrib2")
+    private WebElement ProcesadorLap; //no va
+    @FindBy(xpath = "//body[1]/div[3]/section[1]/article[1]/div[3]/div[1]/div[1]/div[2]/ul[1]/li[7]/p[1]/a[1]")
+    private WebElement SeleccionaLap;
+    @FindBy(id = "headphonesImg")
+    private WebElement menuAudifonos;
+    @FindBy(id = "accordionPrice")
+    private WebElement precioAudifonos;
+    @FindBy(id = "accordionAttrib0")
+    private WebElement compatyAudifonos;
+    @FindBy(id = "accordionAttrib1")
+    private WebElement opcionAudifonos;
+    @FindBy(id = "accordionAttrib2")
+    private WebElement Weight;
+    @FindBy(xpath = "//body[1]/div[3]/section[1]/article[1]/div[3]/div[1]/div[1]/div[2]/ul[1]/li[1]/p[1]/a[1]")
+    private WebElement SeleccionaAudif;
 
     public void agregaParlantes(){
 
@@ -167,27 +211,7 @@ public class AgregarProductoShoppingDemoQA {
     }
     /************************************************************************************************************************/
 
-
     /***************************CORRESPONDIENTE A LA SELECCION DE TABLETS****************************************************/
-    @FindBy(id = "tabletsImg")
-    private WebElement btonTabletsImg;
-    @FindBy(id = "accordionPrice")
-    private WebElement OptionPrecioTB;
-    @FindBy(id = "accordionAttrib0")
-    private WebElement OptionMonitor;
-    @FindBy(id = "display_1")
-    private WebElement PantallaUno;
-    @FindBy(id = "display_0")
-    private WebElement PantallaDos;
-    @FindBy(id = "display_2")
-    private WebElement PantallaTres;
-    @FindBy(id = "accordionAttrib1")
-    private WebElement OptionProcesador;
-    @FindBy(id = "processor_2")
-    private WebElement ProcesDos;
-    @FindBy(id = "17")
-    private WebElement SelecionaTablets;
-
     public void agregaTablets(){
 
         boolean elementoTablets = metodosGenericos.visualizarObjeto(btonTabletsImg, 10);
@@ -275,21 +299,6 @@ public class AgregarProductoShoppingDemoQA {
 
 
     /***************************CORRESPONDIENTE A LA SELECCION DE LAPTOS****************************************************/
-    @FindBy(id = "laptopsImg")
-    private WebElement btonLaptopsImg;
-    @FindBy(id = "accordionPrice")
-    private WebElement PrecioLap;
-    @FindBy(id = "accordionAttrib0")
-    private WebElement MonitorLap;
-    @FindBy(id = "accordionAttrib1")
-    private WebElement SistemaLap;
-    @FindBy(id = "operating_system_1")
-    private WebElement optwin10;
-    @FindBy(id = "accordionAttrib2")
-    private WebElement ProcesadorLap; //no va
-    @FindBy(xpath = "//body[1]/div[3]/section[1]/article[1]/div[3]/div[1]/div[1]/div[2]/ul[1]/li[7]/p[1]/a[1]")
-    private WebElement SeleccionaLap;
-
     public void agregaLaptos(){
         boolean elementoLaptos = metodosGenericos.visualizarObjeto(btonLaptopsImg, 10);
         if (elementoLaptos) {
@@ -352,19 +361,6 @@ public class AgregarProductoShoppingDemoQA {
 
 
     /***************************CORRESPONDIENTE A LA SELECCION DE LAPTOS****************************************************/
-    @FindBy(id = "headphonesImg")
-    private WebElement menuAudifonos;
-    @FindBy(id = "accordionPrice")
-    private WebElement precioAudifonos;
-    @FindBy(id = "accordionAttrib0")
-    private WebElement compatyAudifonos;
-    @FindBy(id = "accordionAttrib1")
-    private WebElement opcionAudifonos;
-    @FindBy(id = "accordionAttrib2")
-    private WebElement Weight;
-    @FindBy(xpath = "//body[1]/div[3]/section[1]/article[1]/div[3]/div[1]/div[1]/div[2]/ul[1]/li[1]/p[1]/a[1]")
-    private WebElement SeleccionaAudif;
-
     public void agregaAudifonos() throws InterruptedException {
         boolean elementoAudifono = metodosGenericos.visualizarObjeto(menuAudifonos, 10);
         if (elementoAudifono) {
