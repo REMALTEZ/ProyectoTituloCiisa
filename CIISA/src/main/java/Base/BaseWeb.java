@@ -30,11 +30,11 @@ public class BaseWeb {
     }
 
     @AfterSuite
-   // @Parameters({"carpetaReporte"})
+   @Parameters({"carpetaReporte"})
     public void afterSuite(ITestContext testContext, String carpetaReporte) {
         HtmlReport.endReport();
-//        ZipUtilis zip = new ZipUtilis(carpetaReporte);
-//        zip.generarReporte();
+        ZipUtilis zip = new ZipUtilis(carpetaReporte);
+       zip.generarReporte();
     }
 
     @BeforeMethod

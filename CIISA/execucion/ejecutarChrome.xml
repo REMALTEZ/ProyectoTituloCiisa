@@ -46,11 +46,11 @@
         </classes>
     </test>
 
-    <test name="enviar email">
-        <classes>
-            <class name="testClases.enviarEmail" />
-        </classes>
-    </test>
+<!--    <test name="enviar email">-->
+<!--        <classes>-->
+<!--            <class name="testClases.enviarEmail" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
 

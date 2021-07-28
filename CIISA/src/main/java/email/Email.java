@@ -17,7 +17,7 @@ public class Email {
     private Session session;
     private String destinatario = "ninguno@gmail.com";
     private String asunto = "Predeterminado";
-    private String tipoTexto = "PFA";
+    private String tipoTexto = "Ejecucion terminada con exito";
     private String fileFolder = "";
     private String fileName ="";
     private Message mensaje;
