@@ -34,11 +34,11 @@
         </classes>
     </test>
 
-    <test name="Ingresar A SHOPPING AGREGA PRODUCTOS A CARRO DE COMPRAS">
-        <classes>
-            <class name="testClases.CPA007AgregaProductoShopping" />
-        </classes>
-    </test>
+<!--    <test name="Ingresar A SHOPPING AGREGA PRODUCTOS A CARRO DE COMPRAS">-->
+<!--        <classes>-->
+<!--            <class name="testClases.CPA007AgregaProductoShopping" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="Ingresar Productos a DEMO Blazer Web Shopping ">
         <classes>
